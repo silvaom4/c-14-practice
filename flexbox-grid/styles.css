@@ -1,0 +1,30 @@
+.container {
+    /* parent container
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+
+    max-width: 450px;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, 200px); */
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+
+
+
+
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 1px black dotted;
+    /* flex item styles*/
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
